@@ -1,0 +1,47 @@
+
+ARTI 303 - Lab 8
+Queries and Test Results
+====================================
+
+TASK 1: Boolean Expression
+
+
+49 ?- consult(['c:/Users/Fatima/Desktop/Lab AI/Lab 8/boolean.pl']).
+true.
+
+50 ?- logicGate(true, true, Output).
+Output = true.
+
+51 ?- logicGate(true, false, Output).
+Output = false.
+
+52 ?- logicGate(false, true, Output).
+Output = false.
+
+53 ?- logicGate(false, false, Output).
+Output = true.
+
+====================================
+
+TASK 2: sumlist
+
+54 ?- consult(['c:/Users/Fatima/Desktop/Lab AI/Lab 8/lab8_tasks.pl']).
+true.
+
+55 ?- sumlist([1,2,5,7], Sum).
+Sum = 15.
+
+56 ?- sumlist([], Sum).
+Sum = 0.
+
+====================================
+
+TASK 3: Total and Average
+
+58 ?- total_average.
+Enter the first number: 10.
+Enter the second number: |: 20.
+Enter the third number: |: 25.
+Total = 55
+Average = 18.333333333333332
+true.
